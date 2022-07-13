@@ -11,9 +11,13 @@ class endActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_end)
         var tmp = intent.extras!!.get("winner")
+        if(tmp!=0)
         textView2.text="Player $tmp won!"
+        else {
+            textView2.text="It is a Draw !"
+        }
     }
     fun playAgain(view: View) {
-        startActivity(Intent(this,secondActivity::class.java))
+        startActivity(Intent(this,MainActivity::class.java))
     }
 }
