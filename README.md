@@ -1,5 +1,6 @@
 # TicTacToe
-Simple Tic Tac Toe android game with 2 modes : 1) 2 Players mode  
+Simple Tic Tac Toe android game with 2 modes :   
+                                               1) 2 Players mode  
                                                2) Computer player mode  
 You can download the apk game from this link : https://github.com/YehiaFarghaly/TicTacToe/releases/download/v1.0.0/app-debug.apk ,  have fun 😃 !  
   
